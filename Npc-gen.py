@@ -41,6 +41,6 @@ for i in range(10):
     print(f"  Health: {NPChealth[i]}")
     print(f"  Attack Power: {NPCattack[i]}")
     print(f"  Experience: {NPCex[i]}")
-    print("-" * 30)
+    print('\n')
     time.sleep(1) # displays the Npc's one at a time every second
 # displays all of the attributes of the Npc's 
